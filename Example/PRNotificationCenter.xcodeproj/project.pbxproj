@@ -245,7 +245,7 @@
 			attributes = {
 				CLASSPREFIX = PR;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Juanjo Ramos";
+				ORGANIZATIONNAME = "Agile Sports Technologies";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
