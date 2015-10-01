@@ -12,7 +12,6 @@
 		339375897B8AD899184FFB88E9B7F8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */; };
 		3E3780301082974D7FCB12DFDAC259A5 /* Pods-PRNotificationCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0688ABB4D55FB82CD0C913E59B6C84 /* Pods-PRNotificationCenter_Tests-dummy.m */; };
 		553578226F4B1094F67D12109008137F /* Pods-PRNotificationCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FABCF5A6195F08438D4BB1A96307EE /* Pods-PRNotificationCenter_Example-dummy.m */; };
-		6B45B0FEC9AC1654AFBC7E6D12AA498A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53D26726B974C9DC3121B79CFA1D52 /* ReplaceMe.m */; };
 		7C5A49D636DD7C54CAAE9D3DF9A593F0 /* PRNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A211C7A3CA2C891CE6D7D35635AEC /* PRNotificationCenter-dummy.m */; };
 		7E2B457E1BBD64E000E261DB /* PRNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */; };
 		7E2B457F1BBD64E000E261DB /* PRNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */; };
@@ -74,7 +73,6 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5B15C96C2483549B1112E6945C295A7 /* Pods-PRNotificationCenter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRNotificationCenter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C6085BC155851B57D14D2D1D3D8557DD /* PRNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRNotificationCenter.xcconfig; sourceTree = "<group>"; };
-		CB53D26726B974C9DC3121B79CFA1D52 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		CB5A0EFB9F63B29FBD7ED6225323D1A8 /* PRNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
 		CC98D0637BEACAAA3C0C307CE737C311 /* Pods-PRNotificationCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRNotificationCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D680603A2245B754B67BE1A8CEFD1F48 /* Pods-PRNotificationCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRNotificationCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -228,7 +226,6 @@
 		ACD045C5FD112B4B47CF719FA59E7F07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CB53D26726B974C9DC3121B79CFA1D52 /* ReplaceMe.m */,
 				7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */,
 				7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */,
 			);
@@ -419,7 +416,6 @@
 			files = (
 				7C5A49D636DD7C54CAAE9D3DF9A593F0 /* PRNotificationCenter-dummy.m in Sources */,
 				7E2B457F1BBD64E000E261DB /* PRNotificationCenter.m in Sources */,
-				6B45B0FEC9AC1654AFBC7E6D12AA498A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
