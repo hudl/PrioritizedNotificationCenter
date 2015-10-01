@@ -1,0 +1,14 @@
+PODS:
+  - PRNotificationCenter (0.1.0)
+
+DEPENDENCIES:
+  - PRNotificationCenter (from `../`)
+
+EXTERNAL SOURCES:
+  PRNotificationCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PRNotificationCenter: ae2f85c5d9256b99bf712fd5cd7a2951bf9f8ae0
+
+COCOAPODS: 0.38.2

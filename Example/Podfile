@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PRNotificationCenter_Example', :exclusive => true do
+  pod "PRNotificationCenter", :path => "../"
+end
+
+target 'PRNotificationCenter_Tests', :exclusive => true do
+  pod "PRNotificationCenter", :path => "../"
+
+  
+end
