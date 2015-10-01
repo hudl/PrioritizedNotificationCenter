@@ -14,6 +14,8 @@
 		553578226F4B1094F67D12109008137F /* Pods-PRNotificationCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FABCF5A6195F08438D4BB1A96307EE /* Pods-PRNotificationCenter_Example-dummy.m */; };
 		6B45B0FEC9AC1654AFBC7E6D12AA498A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CB53D26726B974C9DC3121B79CFA1D52 /* ReplaceMe.m */; };
 		7C5A49D636DD7C54CAAE9D3DF9A593F0 /* PRNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A211C7A3CA2C891CE6D7D35635AEC /* PRNotificationCenter-dummy.m */; };
+		7E2B457E1BBD64E000E261DB /* PRNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */; };
+		7E2B457F1BBD64E000E261DB /* PRNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */; };
 		971722BCBE3459BE5984148E7C81F569 /* PRNotificationCenter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E337A5670A2B5B16398B2FA00DD406D /* PRNotificationCenter.bundle */; };
 		AE65DC05C9930A8DF4931CFBAAEE7F57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */; };
 		B1415CBA9264609A8199E745B790BE15 /* PRNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8226AF7EC5AAE111BD6E3BAD8595682 /* PRNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +60,8 @@
 		42AF04529BB9932F4A57778CD2BE357A /* Pods-PRNotificationCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		57A323F9B311856F81141C01C576BC6F /* Pods_PRNotificationCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRNotificationCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		581A211C7A3CA2C891CE6D7D35635AEC /* PRNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRNotificationCenter-dummy.m"; sourceTree = "<group>"; };
+		7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRNotificationCenter.h; sourceTree = "<group>"; };
+		7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRNotificationCenter.m; sourceTree = "<group>"; };
 		7F27EBF05F2D7F5FA8659B30A1F79B2E /* Pods-PRNotificationCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRNotificationCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84A41252F9CBFAC5147FCA4C59124108 /* Pods-PRNotificationCenter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRNotificationCenter_Tests.modulemap"; sourceTree = "<group>"; };
 		866447C96922203607C750AC974FB954 /* Pods-PRNotificationCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRNotificationCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				CB53D26726B974C9DC3121B79CFA1D52 /* ReplaceMe.m */,
+				7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */,
+				7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2B457E1BBD64E000E261DB /* PRNotificationCenter.h in Headers */,
 				B1415CBA9264609A8199E745B790BE15 /* PRNotificationCenter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +365,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Agile Sports Technologies";
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -410,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C5A49D636DD7C54CAAE9D3DF9A593F0 /* PRNotificationCenter-dummy.m in Sources */,
+				7E2B457F1BBD64E000E261DB /* PRNotificationCenter.m in Sources */,
 				6B45B0FEC9AC1654AFBC7E6D12AA498A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
