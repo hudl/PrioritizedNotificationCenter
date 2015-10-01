@@ -9,77 +9,77 @@
 /* Begin PBXBuildFile section */
 		013589F1E4AD667A787D58F581F4B68A /* Pods-PRNotificationCenter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39758D30E16AD9D64F447B38815855D1 /* Pods-PRNotificationCenter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3098B54D63F652D65B27FBC05C12338F /* Pods-PRNotificationCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B68A2BF2C7882D03211C3755CAA99030 /* Pods-PRNotificationCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		339375897B8AD899184FFB88E9B7F8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */; };
+		339375897B8AD899184FFB88E9B7F8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9026C9BD2F1FD2FF8C05D0F8EEE771A0 /* Foundation.framework */; };
 		3E3780301082974D7FCB12DFDAC259A5 /* Pods-PRNotificationCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0688ABB4D55FB82CD0C913E59B6C84 /* Pods-PRNotificationCenter_Tests-dummy.m */; };
+		42695C71083EEDAD0B3A8C7992DC3239 /* PRNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = C60C5C4CB2C03B5807612A2151018D76 /* PRNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		553578226F4B1094F67D12109008137F /* Pods-PRNotificationCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FABCF5A6195F08438D4BB1A96307EE /* Pods-PRNotificationCenter_Example-dummy.m */; };
-		7C5A49D636DD7C54CAAE9D3DF9A593F0 /* PRNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581A211C7A3CA2C891CE6D7D35635AEC /* PRNotificationCenter-dummy.m */; };
-		7E2B457E1BBD64E000E261DB /* PRNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */; };
-		7E2B457F1BBD64E000E261DB /* PRNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */; };
-		971722BCBE3459BE5984148E7C81F569 /* PRNotificationCenter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E337A5670A2B5B16398B2FA00DD406D /* PRNotificationCenter.bundle */; };
-		AE65DC05C9930A8DF4931CFBAAEE7F57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */; };
-		B1415CBA9264609A8199E745B790BE15 /* PRNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8226AF7EC5AAE111BD6E3BAD8595682 /* PRNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA5EB602558450949E813FFEAD2CE4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */; };
+		B25A9229A27E5465BA15492B803E17B2 /* PRNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEC1B3B57D5B8DDCCBB71499A30B885 /* PRNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B01816D2A9D9DE7288E1158A285F4B /* PRNotificationCenter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C412C545C340E56550A7D97FEF29799A /* PRNotificationCenter.bundle */; };
+		CECE4C043D130CD63AA7BE9D083434B3 /* PRNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647813764E4097C026EE2ACEBBCAD15 /* PRNotificationCenter.m */; };
+		DA0555E66B3B7396C8EE93465E35A530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9026C9BD2F1FD2FF8C05D0F8EEE771A0 /* Foundation.framework */; };
+		FA5EB602558450949E813FFEAD2CE4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9026C9BD2F1FD2FF8C05D0F8EEE771A0 /* Foundation.framework */; };
+		FAC30CACB2B3645EC54EE61678496D76 /* PRNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45705E7865167E8599912A3ED32AB2EA /* PRNotificationCenter-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34CD96A5F3C40CCB24088DB3D37E9020 /* PBXContainerItemProxy */ = {
+		2F4C4601BBB5A7541A613E398A3E0376 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3D90019A344ADBE4AA29A6A03339A1C;
-			remoteInfo = PRNotificationCenter;
-		};
-		751A546B77CC7D067A48F4BCAA8B94B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3D90019A344ADBE4AA29A6A03339A1C;
-			remoteInfo = PRNotificationCenter;
-		};
-		DE2DE568977AAC831A9CFCAD1268393D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92B895C29DD9FD424D8BFBB6F8AA5DCD;
+			remoteGlobalIDString = 1BFD2BB7D25A399489EC70E4793F18AA;
 			remoteInfo = "PRNotificationCenter-PRNotificationCenter";
+		};
+		98BF8D849E39950E5BCD4915D6B160C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE24D4ACFFD999DC175D522CA5EE42DB;
+			remoteInfo = PRNotificationCenter;
+		};
+		B574895289BC428BFDC525024329023A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE24D4ACFFD999DC175D522CA5EE42DB;
+			remoteInfo = PRNotificationCenter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E337A5670A2B5B16398B2FA00DD406D /* PRNotificationCenter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRNotificationCenter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EFC2F4C01BF029A078D1465EAD0C4D1 /* Pods-PRNotificationCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0A980A2AACEDAFD688035A5424298BBA /* Pods-PRNotificationCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		10FABCF5A6195F08438D4BB1A96307EE /* Pods-PRNotificationCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRNotificationCenter_Example-dummy.m"; sourceTree = "<group>"; };
-		18E9EDD5E10F733A5A3B66E403622DEE /* PRNotificationCenter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PRNotificationCenter-Private.xcconfig"; sourceTree = "<group>"; };
-		235927316041C2DC95EF707C6F05BED0 /* PRNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PRNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1454F4E05AD2C6982DDC43306E0D1092 /* Pods-PRNotificationCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB783A964DF8467762C87C66676B724 /* PRNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PRNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2317DA81CCF782B6625772D537B20258 /* PRNotificationCenter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PRNotificationCenter-Private.xcconfig"; sourceTree = "<group>"; };
 		24CD3C2540589583696E24BEDACC48A5 /* PRNotificationCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PRNotificationCenter.modulemap; sourceTree = "<group>"; };
 		266C399AA51058C3764BE8C3744DC0BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BEC1B3B57D5B8DDCCBB71499A30B885 /* PRNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
+		3647813764E4097C026EE2ACEBBCAD15 /* PRNotificationCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PRNotificationCenter.m; sourceTree = "<group>"; };
 		39758D30E16AD9D64F447B38815855D1 /* Pods-PRNotificationCenter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRNotificationCenter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3CF50F80B00D8ECA94C962C54570326A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42AF04529BB9932F4A57778CD2BE357A /* Pods-PRNotificationCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45705E7865167E8599912A3ED32AB2EA /* PRNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRNotificationCenter-dummy.m"; sourceTree = "<group>"; };
 		57A323F9B311856F81141C01C576BC6F /* Pods_PRNotificationCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRNotificationCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		581A211C7A3CA2C891CE6D7D35635AEC /* PRNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRNotificationCenter-dummy.m"; sourceTree = "<group>"; };
-		7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRNotificationCenter.h; sourceTree = "<group>"; };
-		7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRNotificationCenter.m; sourceTree = "<group>"; };
+		6A01B8F7C186ED017491E0A901A5DA49 /* Pods-PRNotificationCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7F27EBF05F2D7F5FA8659B30A1F79B2E /* Pods-PRNotificationCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRNotificationCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84A41252F9CBFAC5147FCA4C59124108 /* Pods-PRNotificationCenter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRNotificationCenter_Tests.modulemap"; sourceTree = "<group>"; };
 		866447C96922203607C750AC974FB954 /* Pods-PRNotificationCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRNotificationCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8AFD4C1A008CF42998EB807BBA8D8F16 /* Pods-PRNotificationCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8CD2CA379603321A99604EB112324649 /* Pods-PRNotificationCenter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRNotificationCenter_Tests-resources.sh"; sourceTree = "<group>"; };
 		8F0688ABB4D55FB82CD0C913E59B6C84 /* Pods-PRNotificationCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRNotificationCenter_Tests-dummy.m"; sourceTree = "<group>"; };
+		9026C9BD2F1FD2FF8C05D0F8EEE771A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93949CA434A66C4EDC78BA2814FE78BC /* Pods-PRNotificationCenter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRNotificationCenter_Example-resources.sh"; sourceTree = "<group>"; };
 		A60DC0D32651224E5F255D2EA8889544 /* Pods_PRNotificationCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRNotificationCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6984DE3B1F60D71E177412FA092152B /* Pods-PRNotificationCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B68A2BF2C7882D03211C3755CAA99030 /* Pods-PRNotificationCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRNotificationCenter_Example-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C412C545C340E56550A7D97FEF29799A /* PRNotificationCenter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRNotificationCenter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B15C96C2483549B1112E6945C295A7 /* Pods-PRNotificationCenter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRNotificationCenter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C6085BC155851B57D14D2D1D3D8557DD /* PRNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRNotificationCenter.xcconfig; sourceTree = "<group>"; };
+		C60C5C4CB2C03B5807612A2151018D76 /* PRNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PRNotificationCenter.h; sourceTree = "<group>"; };
 		CB5A0EFB9F63B29FBD7ED6225323D1A8 /* PRNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
 		CC98D0637BEACAAA3C0C307CE737C311 /* Pods-PRNotificationCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRNotificationCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D680603A2245B754B67BE1A8CEFD1F48 /* Pods-PRNotificationCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRNotificationCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D8226AF7EC5AAE111BD6E3BAD8595682 /* PRNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
 		DFEBE9A293522C684DCF05A84C573F06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C328035B84AE89D4FBBF1FCDB4FAE8 /* Pods-PRNotificationCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRNotificationCenter_Example.modulemap"; sourceTree = "<group>"; };
-		F1C5E567775039E765775FECE2395152 /* Pods-PRNotificationCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRNotificationCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7C661DB60691D40DEDE5DC3BC1DD06 /* Pods-PRNotificationCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRNotificationCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A65F8695C2E05C96C5A9F0DDD1B9CCB6 /* Frameworks */ = {
+		521EB4736EB4BB969857770299E67D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0555E66B3B7396C8EE93465E35A530 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4A76EB7BAFAF84D4A4BC71F1524921 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,14 +112,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5EB602558450949E813FFEAD2CE4B2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEBA5890A522D346D4313B0A85EEA124 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE65DC05C9930A8DF4931CFBAAEE7F57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +129,8 @@
 				D680603A2245B754B67BE1A8CEFD1F48 /* Pods-PRNotificationCenter_Example-frameworks.sh */,
 				93949CA434A66C4EDC78BA2814FE78BC /* Pods-PRNotificationCenter_Example-resources.sh */,
 				B68A2BF2C7882D03211C3755CAA99030 /* Pods-PRNotificationCenter_Example-umbrella.h */,
-				F1C5E567775039E765775FECE2395152 /* Pods-PRNotificationCenter_Example.debug.xcconfig */,
-				0EFC2F4C01BF029A078D1465EAD0C4D1 /* Pods-PRNotificationCenter_Example.release.xcconfig */,
+				0A980A2AACEDAFD688035A5424298BBA /* Pods-PRNotificationCenter_Example.debug.xcconfig */,
+				6A01B8F7C186ED017491E0A901A5DA49 /* Pods-PRNotificationCenter_Example.release.xcconfig */,
 			);
 			name = "Pods-PRNotificationCenter_Example";
 			path = "Target Support Files/Pods-PRNotificationCenter_Example";
@@ -145,14 +145,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4E394DDC563968B736A5FB35A89CC6A7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				ACD045C5FD112B4B47CF719FA59E7F07 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		51B0D0046C2061A545BBAC9C9F6711BB /* Pods-PRNotificationCenter_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,8 +156,8 @@
 				C5B15C96C2483549B1112E6945C295A7 /* Pods-PRNotificationCenter_Tests-frameworks.sh */,
 				8CD2CA379603321A99604EB112324649 /* Pods-PRNotificationCenter_Tests-resources.sh */,
 				39758D30E16AD9D64F447B38815855D1 /* Pods-PRNotificationCenter_Tests-umbrella.h */,
-				42AF04529BB9932F4A57778CD2BE357A /* Pods-PRNotificationCenter_Tests.debug.xcconfig */,
-				8AFD4C1A008CF42998EB807BBA8D8F16 /* Pods-PRNotificationCenter_Tests.release.xcconfig */,
+				A6984DE3B1F60D71E177412FA092152B /* Pods-PRNotificationCenter_Tests.debug.xcconfig */,
+				1454F4E05AD2C6982DDC43306E0D1092 /* Pods-PRNotificationCenter_Tests.release.xcconfig */,
 			);
 			name = "Pods-PRNotificationCenter_Tests";
 			path = "Target Support Files/Pods-PRNotificationCenter_Tests";
@@ -174,7 +166,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2F4FBB904CC2405ABF61C14AAC38D00B /* Foundation.framework */,
+				9026C9BD2F1FD2FF8C05D0F8EEE771A0 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -204,10 +196,10 @@
 				DFEBE9A293522C684DCF05A84C573F06 /* Info.plist */,
 				24CD3C2540589583696E24BEDACC48A5 /* PRNotificationCenter.modulemap */,
 				C6085BC155851B57D14D2D1D3D8557DD /* PRNotificationCenter.xcconfig */,
-				18E9EDD5E10F733A5A3B66E403622DEE /* PRNotificationCenter-Private.xcconfig */,
-				581A211C7A3CA2C891CE6D7D35635AEC /* PRNotificationCenter-dummy.m */,
+				2317DA81CCF782B6625772D537B20258 /* PRNotificationCenter-Private.xcconfig */,
+				45705E7865167E8599912A3ED32AB2EA /* PRNotificationCenter-dummy.m */,
 				CB5A0EFB9F63B29FBD7ED6225323D1A8 /* PRNotificationCenter-prefix.pch */,
-				D8226AF7EC5AAE111BD6E3BAD8595682 /* PRNotificationCenter-umbrella.h */,
+				2BEC1B3B57D5B8DDCCBB71499A30B885 /* PRNotificationCenter-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PRNotificationCenter";
@@ -216,18 +208,26 @@
 		8916C2B2DE2F0CFA95DA3678B31E8875 /* PRNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				4E394DDC563968B736A5FB35A89CC6A7 /* Pod */,
+				9E646CC665CC7BF23F420A99D270A8F6 /* Pod */,
 				8273CEA829DF7E744620CE6ECDCA3C80 /* Support Files */,
 			);
 			name = PRNotificationCenter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		ACD045C5FD112B4B47CF719FA59E7F07 /* Classes */ = {
+		9E646CC665CC7BF23F420A99D270A8F6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7E2B457C1BBD64E000E261DB /* PRNotificationCenter.h */,
-				7E2B457D1BBD64E000E261DB /* PRNotificationCenter.m */,
+				BAED189FC5CED055C26EBD9341D6A4E2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BAED189FC5CED055C26EBD9341D6A4E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C60C5C4CB2C03B5807612A2151018D76 /* PRNotificationCenter.h */,
+				3647813764E4097C026EE2ACEBBCAD15 /* PRNotificationCenter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -243,8 +243,8 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E337A5670A2B5B16398B2FA00DD406D /* PRNotificationCenter.bundle */,
-				235927316041C2DC95EF707C6F05BED0 /* PRNotificationCenter.framework */,
+				C412C545C340E56550A7D97FEF29799A /* PRNotificationCenter.bundle */,
+				1FB783A964DF8467762C87C66676B724 /* PRNotificationCenter.framework */,
 				A60DC0D32651224E5F255D2EA8889544 /* Pods_PRNotificationCenter_Example.framework */,
 				57A323F9B311856F81141C01C576BC6F /* Pods_PRNotificationCenter_Tests.framework */,
 			);
@@ -254,12 +254,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2BC41A04F667EA8E90402FD3ACD89B21 /* Headers */ = {
+		85FD7B54FC5C9946788BF81467459849 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2B457E1BBD64E000E261DB /* PRNotificationCenter.h in Headers */,
-				B1415CBA9264609A8199E745B790BE15 /* PRNotificationCenter-umbrella.h in Headers */,
+				B25A9229A27E5465BA15492B803E17B2 /* PRNotificationCenter-umbrella.h in Headers */,
+				42695C71083EEDAD0B3A8C7992DC3239 /* PRNotificationCenter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +282,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1BFD2BB7D25A399489EC70E4793F18AA /* PRNotificationCenter-PRNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF66826A7E8CC2A03E2C9572F5AE38BF /* Build configuration list for PBXNativeTarget "PRNotificationCenter-PRNotificationCenter" */;
+			buildPhases = (
+				E69A4A157689EEC6E2E76FD21194EDC6 /* Sources */,
+				8A4A76EB7BAFAF84D4A4BC71F1524921 /* Frameworks */,
+				2D3B3D2102FFEA354E537BCE36BE1109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PRNotificationCenter-PRNotificationCenter";
+			productName = "PRNotificationCenter-PRNotificationCenter";
+			productReference = C412C545C340E56550A7D97FEF29799A /* PRNotificationCenter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		463E390B96066BF4C337E76A0E598BE9 /* Pods-PRNotificationCenter_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACC6C03BB7E9637AF0F413CB0E14CEFE /* Build configuration list for PBXNativeTarget "Pods-PRNotificationCenter_Example" */;
@@ -293,29 +310,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				8AF84A89555ECE83BA32C89E603DDE7D /* PBXTargetDependency */,
+				557A4E833B9105F7E06E2DB7C8D6DBE2 /* PBXTargetDependency */,
 			);
 			name = "Pods-PRNotificationCenter_Example";
 			productName = "Pods-PRNotificationCenter_Example";
 			productReference = A60DC0D32651224E5F255D2EA8889544 /* Pods_PRNotificationCenter_Example.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		92B895C29DD9FD424D8BFBB6F8AA5DCD /* PRNotificationCenter-PRNotificationCenter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3A56B8153C3BA595B5E9F10A2B1DA0E /* Build configuration list for PBXNativeTarget "PRNotificationCenter-PRNotificationCenter" */;
-			buildPhases = (
-				157299623A1050B98A15C4F7BD64D3C0 /* Sources */,
-				A65F8695C2E05C96C5A9F0DDD1B9CCB6 /* Frameworks */,
-				50B211B57815F0238228068F048A62AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PRNotificationCenter-PRNotificationCenter";
-			productName = "PRNotificationCenter-PRNotificationCenter";
-			productReference = 0E337A5670A2B5B16398B2FA00DD406D /* PRNotificationCenter.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		AB3CD6936FF7341BAAFA4430D88913DF /* Pods-PRNotificationCenter_Tests */ = {
 			isa = PBXNativeTarget;
@@ -328,30 +328,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				5623B70CCCDE6CF3A94CE904750CE31A /* PBXTargetDependency */,
+				D0358B9EBEBC74F2885285C12D4D8C81 /* PBXTargetDependency */,
 			);
 			name = "Pods-PRNotificationCenter_Tests";
 			productName = "Pods-PRNotificationCenter_Tests";
 			productReference = 57A323F9B311856F81141C01C576BC6F /* Pods_PRNotificationCenter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B3D90019A344ADBE4AA29A6A03339A1C /* PRNotificationCenter */ = {
+		EE24D4ACFFD999DC175D522CA5EE42DB /* PRNotificationCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AD2EFBDC75261593AE2C1D848B45C78 /* Build configuration list for PBXNativeTarget "PRNotificationCenter" */;
+			buildConfigurationList = E26F27DCCFCA7B949409E05E4EC90447 /* Build configuration list for PBXNativeTarget "PRNotificationCenter" */;
 			buildPhases = (
-				6C5AE8BB5D3BE05534AF2DB7255E7BA6 /* Sources */,
-				EEBA5890A522D346D4313B0A85EEA124 /* Frameworks */,
-				F7E6F69B6FD77CC5145481C169A0CC36 /* Resources */,
-				2BC41A04F667EA8E90402FD3ACD89B21 /* Headers */,
+				292B6847607974F4A54AB37751714A85 /* Sources */,
+				521EB4736EB4BB969857770299E67D4E /* Frameworks */,
+				484AC04F4EAD157E395BF906E972B75C /* Resources */,
+				85FD7B54FC5C9946788BF81467459849 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A07D73FCB7A0DD522D4CA19F784C38F7 /* PBXTargetDependency */,
+				C69044BF211376F7B50E9A35478C7CAD /* PBXTargetDependency */,
 			);
 			name = PRNotificationCenter;
 			productName = PRNotificationCenter;
-			productReference = 235927316041C2DC95EF707C6F05BED0 /* PRNotificationCenter.framework */;
+			productReference = 1FB783A964DF8467762C87C66676B724 /* PRNotificationCenter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -362,7 +362,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Agile Sports Technologies";
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,8 +375,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3D90019A344ADBE4AA29A6A03339A1C /* PRNotificationCenter */,
-				92B895C29DD9FD424D8BFBB6F8AA5DCD /* PRNotificationCenter-PRNotificationCenter */,
+				EE24D4ACFFD999DC175D522CA5EE42DB /* PRNotificationCenter */,
+				1BFD2BB7D25A399489EC70E4793F18AA /* PRNotificationCenter-PRNotificationCenter */,
 				463E390B96066BF4C337E76A0E598BE9 /* Pods-PRNotificationCenter_Example */,
 				AB3CD6936FF7341BAAFA4430D88913DF /* Pods-PRNotificationCenter_Tests */,
 			);
@@ -385,37 +384,37 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50B211B57815F0238228068F048A62AF /* Resources */ = {
+		2D3B3D2102FFEA354E537BCE36BE1109 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7E6F69B6FD77CC5145481C169A0CC36 /* Resources */ = {
+		484AC04F4EAD157E395BF906E972B75C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				971722BCBE3459BE5984148E7C81F569 /* PRNotificationCenter.bundle in Resources */,
+				C2B01816D2A9D9DE7288E1158A285F4B /* PRNotificationCenter.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		157299623A1050B98A15C4F7BD64D3C0 /* Sources */ = {
+		292B6847607974F4A54AB37751714A85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC30CACB2B3645EC54EE61678496D76 /* PRNotificationCenter-dummy.m in Sources */,
+				CECE4C043D130CD63AA7BE9D083434B3 /* PRNotificationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C5AE8BB5D3BE05534AF2DB7255E7BA6 /* Sources */ = {
+		E69A4A157689EEC6E2E76FD21194EDC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5A49D636DD7C54CAAE9D3DF9A593F0 /* PRNotificationCenter-dummy.m in Sources */,
-				7E2B457F1BBD64E000E261DB /* PRNotificationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,62 +437,152 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5623B70CCCDE6CF3A94CE904750CE31A /* PBXTargetDependency */ = {
+		557A4E833B9105F7E06E2DB7C8D6DBE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PRNotificationCenter;
-			target = B3D90019A344ADBE4AA29A6A03339A1C /* PRNotificationCenter */;
-			targetProxy = 34CD96A5F3C40CCB24088DB3D37E9020 /* PBXContainerItemProxy */;
+			target = EE24D4ACFFD999DC175D522CA5EE42DB /* PRNotificationCenter */;
+			targetProxy = 98BF8D849E39950E5BCD4915D6B160C9 /* PBXContainerItemProxy */;
 		};
-		8AF84A89555ECE83BA32C89E603DDE7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PRNotificationCenter;
-			target = B3D90019A344ADBE4AA29A6A03339A1C /* PRNotificationCenter */;
-			targetProxy = 751A546B77CC7D067A48F4BCAA8B94B9 /* PBXContainerItemProxy */;
-		};
-		A07D73FCB7A0DD522D4CA19F784C38F7 /* PBXTargetDependency */ = {
+		C69044BF211376F7B50E9A35478C7CAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PRNotificationCenter-PRNotificationCenter";
-			target = 92B895C29DD9FD424D8BFBB6F8AA5DCD /* PRNotificationCenter-PRNotificationCenter */;
-			targetProxy = DE2DE568977AAC831A9CFCAD1268393D /* PBXContainerItemProxy */;
+			target = 1BFD2BB7D25A399489EC70E4793F18AA /* PRNotificationCenter-PRNotificationCenter */;
+			targetProxy = 2F4C4601BBB5A7541A613E398A3E0376 /* PBXContainerItemProxy */;
+		};
+		D0358B9EBEBC74F2885285C12D4D8C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PRNotificationCenter;
+			target = EE24D4ACFFD999DC175D522CA5EE42DB /* PRNotificationCenter */;
+			targetProxy = B574895289BC428BFDC525024329023A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		2247C83009BA391789EB924E4A01BE84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2317DA81CCF782B6625772D537B20258 /* PRNotificationCenter-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PRNotificationCenter/PRNotificationCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRNotificationCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRNotificationCenter/PRNotificationCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PRNotificationCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		4FFFE82E701C0AFBBE2BE69DDC72E381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2317DA81CCF782B6625772D537B20258 /* PRNotificationCenter-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PRNotificationCenter/PRNotificationCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRNotificationCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRNotificationCenter/PRNotificationCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PRNotificationCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53881B12DCB25F05B6B4CA8DF127637B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2317DA81CCF782B6625772D537B20258 /* PRNotificationCenter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PRNotificationCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6439E2C2A0810C3B0AF2A7F929D708BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A980A2AACEDAFD688035A5424298BBA /* Pods-PRNotificationCenter_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PRNotificationCenter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PRNotificationCenter_Example/Pods-PRNotificationCenter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PRNotificationCenter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8939DC5C24B0063791871C85F889B655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6984DE3B1F60D71E177412FA092152B /* Pods-PRNotificationCenter_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PRNotificationCenter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PRNotificationCenter_Tests/Pods-PRNotificationCenter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PRNotificationCenter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -532,9 +621,9 @@
 			};
 			name = Debug;
 		};
-		117EDF24C28473FD9C428B134948414B /* Release */ = {
+		BDEF167AAD4A3B262B8547274567D6C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E9EDD5E10F733A5A3B66E403622DEE /* PRNotificationCenter-Private.xcconfig */;
+			baseConfigurationReference = 2317DA81CCF782B6625772D537B20258 /* PRNotificationCenter-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = PRNotificationCenter;
@@ -544,65 +633,9 @@
 			};
 			name = Release;
 		};
-		1FF5A9A0AF3879F2B72E5930B43A6811 /* Release */ = {
+		F46B3A3E1E5A54A213A9B99035C38F11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E9EDD5E10F733A5A3B66E403622DEE /* PRNotificationCenter-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PRNotificationCenter/PRNotificationCenter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRNotificationCenter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRNotificationCenter/PRNotificationCenter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PRNotificationCenter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25B0911A978D199DAFD2C1D15DC42BA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AFD4C1A008CF42998EB807BBA8D8F16 /* Pods-PRNotificationCenter_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PRNotificationCenter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PRNotificationCenter_Tests/Pods-PRNotificationCenter_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PRNotificationCenter_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5265EE9E13AADEB2A37B910582A35351 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFC2F4C01BF029A078D1465EAD0C4D1 /* Pods-PRNotificationCenter_Example.release.xcconfig */;
+			baseConfigurationReference = 6A01B8F7C186ED017491E0A901A5DA49 /* Pods-PRNotificationCenter_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -629,77 +662,9 @@
 			};
 			name = Release;
 		};
-		6459A971EA9819886518FCAF10A5FEF2 /* Debug */ = {
+		F7CA3C12DF916F70BD0BC43B0A2096A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1C5E567775039E765775FECE2395152 /* Pods-PRNotificationCenter_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PRNotificationCenter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PRNotificationCenter_Example/Pods-PRNotificationCenter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PRNotificationCenter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9527049A60CEF953E6BF2C885AD79D88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E9EDD5E10F733A5A3B66E403622DEE /* PRNotificationCenter-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PRNotificationCenter/PRNotificationCenter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRNotificationCenter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRNotificationCenter/PRNotificationCenter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PRNotificationCenter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9EC3BF3A9971C957E7521B7FE851CE65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E9EDD5E10F733A5A3B66E403622DEE /* PRNotificationCenter-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PRNotificationCenter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C62F7C24F2C19561B4C0EAD83680DFDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42AF04529BB9932F4A57778CD2BE357A /* Pods-PRNotificationCenter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1454F4E05AD2C6982DDC43306E0D1092 /* Pods-PRNotificationCenter_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -713,7 +678,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-PRNotificationCenter_Tests/Pods-PRNotificationCenter_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -724,7 +689,41 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -732,8 +731,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -741,17 +740,8 @@
 		663C2C141D87B19EAE944DB261EC30ED /* Build configuration list for PBXNativeTarget "Pods-PRNotificationCenter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C62F7C24F2C19561B4C0EAD83680DFDD /* Debug */,
-				25B0911A978D199DAFD2C1D15DC42BA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6AD2EFBDC75261593AE2C1D848B45C78 /* Build configuration list for PBXNativeTarget "PRNotificationCenter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9527049A60CEF953E6BF2C885AD79D88 /* Debug */,
-				1FF5A9A0AF3879F2B72E5930B43A6811 /* Release */,
+				8939DC5C24B0063791871C85F889B655 /* Debug */,
+				F7CA3C12DF916F70BD0BC43B0A2096A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,17 +749,26 @@
 		ACC6C03BB7E9637AF0F413CB0E14CEFE /* Build configuration list for PBXNativeTarget "Pods-PRNotificationCenter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6459A971EA9819886518FCAF10A5FEF2 /* Debug */,
-				5265EE9E13AADEB2A37B910582A35351 /* Release */,
+				6439E2C2A0810C3B0AF2A7F929D708BC /* Debug */,
+				F46B3A3E1E5A54A213A9B99035C38F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3A56B8153C3BA595B5E9F10A2B1DA0E /* Build configuration list for PBXNativeTarget "PRNotificationCenter-PRNotificationCenter" */ = {
+		AF66826A7E8CC2A03E2C9572F5AE38BF /* Build configuration list for PBXNativeTarget "PRNotificationCenter-PRNotificationCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EC3BF3A9971C957E7521B7FE851CE65 /* Debug */,
-				117EDF24C28473FD9C428B134948414B /* Release */,
+				53881B12DCB25F05B6B4CA8DF127637B /* Debug */,
+				BDEF167AAD4A3B262B8547274567D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26F27DCCFCA7B949409E05E4EC90447 /* Build configuration list for PBXNativeTarget "PRNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFFE82E701C0AFBBE2BE69DDC72E381 /* Debug */,
+				2247C83009BA391789EB924E4A01BE84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

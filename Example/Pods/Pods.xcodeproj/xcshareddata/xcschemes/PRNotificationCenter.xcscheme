@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BEA84766C24CA41E67E75F13"
+               BlueprintIdentifier = "5850873FC228CE7841506241"
                BuildableName = "PRNotificationCenter.framework"
                BlueprintName = "PRNotificationCenter"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PRNotificationCenter: ae2f85c5d9256b99bf712fd5cd7a2951bf9f8ae0
+  PRNotificationCenter: 0b39276087b655773d195bb9b2b494e2877f767c
 
 COCOAPODS: 0.38.2
