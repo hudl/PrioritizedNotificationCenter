@@ -8,16 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSUInteger, NotificationPriority) {
-    NotificationPriorityLow = 0,
-    NotificationPriorityDefault = 5,
-    NotificationPriorityHigh = 10
+typedef NS_ENUM(NSUInteger, PRNotificationPriority) {
+    PRNotificationPriorityLow = 0,
+    PRNotificationPriorityDefault = 5,
+    PRNotificationPriorityHigh = 10
 };
 /*!
  @constants
- `NotificationPriorityLow`
- `NotificationPriorityDefault`
- `NotificationPriorityHigh`
+ `PRNotificationPriorityLow`
+ `PRNotificationPriorityDefault`
+ `PRNotificationPriorityHigh`
  */
 
 /*!
@@ -48,7 +48,7 @@ typedef NS_ENUM(NSUInteger, NotificationPriority) {
  @param priority.
  @see NSNotificationCenter for description about the other parameters
  */
-- (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject priority:(NotificationPriority)priority;
+- (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject priority:(PRNotificationPriority)priority;
 
 // TODO:
 //- (id<NSObject> _Nonnull)addObserverForName:(NSString * _Nullable)name object:(id _Nullable)obj queue:(NSOperationQueue * _Nullable)queue usingBlock:(void (^ _Nonnull)(NSNotification * _Nonnull note))block

@@ -51,7 +51,7 @@
                                                  selector:@selector(notificationSelector)
                                                      name:notificationName
                                                    object:self
-                                                 priority:NotificationPriorityLow];
+                                                 priority:PRNotificationPriorityLow];
     }
     
     // Create 100 default priority
@@ -69,7 +69,7 @@
                                                  selector:@selector(notificationSelector)
                                                      name:notificationName
                                                    object:self
-                                                 priority:NotificationPriorityDefault];
+                                                 priority:PRNotificationPriorityDefault];
     }
     
     // Create 100 high priority
@@ -87,7 +87,7 @@
                                                  selector:@selector(notificationSelector)
                                                      name:notificationName
                                                    object:self
-                                                 priority:NotificationPriorityHigh];
+                                                 priority:PRNotificationPriorityHigh];
     }
     
     // Post notification
@@ -125,7 +125,7 @@
                                                      selector:@selector(notificationSelector)
                                                          name:notificationName
                                                        object:self
-                                                     priority:NotificationPriorityLow];
+                                                     priority:PRNotificationPriorityLow];
         }
     });
     
@@ -140,7 +140,7 @@
                                                      selector:@selector(notificationSelector)
                                                          name:notificationName
                                                        object:self
-                                                     priority:NotificationPriorityDefault];
+                                                     priority:PRNotificationPriorityDefault];
         }
     });
     
@@ -155,7 +155,7 @@
                                                      selector:@selector(notificationSelector)
                                                          name:notificationName
                                                        object:self
-                                                     priority:NotificationPriorityHigh];
+                                                     priority:PRNotificationPriorityHigh];
         }
     });
     
@@ -194,13 +194,13 @@
                                              selector:@selector(notificationSelector)
                                                  name:notificationName
                                                object:self
-                                             priority:NotificationPriorityLow];
+                                             priority:PRNotificationPriorityLow];
     
     [[PRNotificationCenter defaultCenter] addObserver:notificationHelperRemove
                                              selector:@selector(notificationSelector)
                                                  name:notificationName
                                                object:self
-                                             priority:NotificationPriorityLow];
+                                             priority:PRNotificationPriorityLow];
     
     [[PRNotificationCenter defaultCenter] removeObserver:notificationHelperRemove
                                                     name:notificationName
@@ -247,7 +247,7 @@
                                                      selector:@selector(notificationSelector)
                                                          name:notificationName
                                                        object:self
-                                                     priority:NotificationPriorityLow];
+                                                     priority:PRNotificationPriorityLow];
         }
     });
     
@@ -262,7 +262,7 @@
                                                      selector:@selector(notificationSelector)
                                                          name:notificationName
                                                        object:self
-                                                     priority:NotificationPriorityDefault];
+                                                     priority:PRNotificationPriorityDefault];
         }
     });
     
@@ -277,7 +277,7 @@
                                                      selector:@selector(notificationSelector)
                                                          name:notificationName
                                                        object:self
-                                                     priority:NotificationPriorityHigh];
+                                                     priority:PRNotificationPriorityHigh];
         }
     });
     
@@ -304,7 +304,7 @@
                                                          selector:@selector(notificationSelector)
                                                              name:notificationName
                                                            object:self
-                                                         priority:NotificationPriorityLow];
+                                                         priority:PRNotificationPriorityLow];
             }
         });
         
@@ -330,7 +330,7 @@
                                                          selector:@selector(notificationSelector)
                                                              name:notificationName
                                                            object:self
-                                                         priority:NotificationPriorityDefault];
+                                                         priority:PRNotificationPriorityDefault];
             }
         });
         
@@ -356,7 +356,7 @@
                                                          selector:@selector(notificationSelector)
                                                              name:notificationName
                                                            object:self
-                                                         priority:NotificationPriorityHigh];
+                                                         priority:PRNotificationPriorityHigh];
             }
         });
         

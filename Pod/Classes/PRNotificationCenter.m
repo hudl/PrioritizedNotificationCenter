@@ -45,13 +45,13 @@ NSString *const kSeparator = @"_";
 
 - (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject
 {
-    [self addObserver:observer selector:aSelector name:aName object:anObject priority:NotificationPriorityDefault];
+    [self addObserver:observer selector:aSelector name:aName object:anObject priority:PRNotificationPriorityDefault];
 }
 
-- (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject priority:(NotificationPriority)priority
+- (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject priority:(PRNotificationPriority)priority
 {
-    // Ensure the maximum value for priority is never higher than NotificationPriorityHigh
-    priority = MIN(priority, NotificationPriorityHigh);
+    // Ensure the maximum value for priority is never higher than PRNotificationPriorityHigh
+    priority = MIN(priority, PRNotificationPriorityHigh);
     @synchronized(self.notificationsDictionary)
     {
         NSMutableDictionary *mapTable = [self.notificationsDictionary objectForKey:aName];
@@ -158,7 +158,7 @@ NSString *const kSeparator = @"_";
 
 #pragma mark - Private Methods
 
-- (NSString *)_notificationValueForName:(NSString *)name priority:(NotificationPriority)priority
+- (NSString *)_notificationValueForName:(NSString *)name priority:(PRNotificationPriority)priority
 {
     return [NSString stringWithFormat:@"%@%@%@", name, kSeparator, @(priority)];
 }
@@ -166,7 +166,7 @@ NSString *const kSeparator = @"_";
 - (NSString *)_removeObserver:(id)observer name:(NSString *)aName
 {
     NSMutableDictionary *mapTable = self.notificationsDictionary[aName];
-    NotificationPriority priority = NSUIntegerMax;
+    PRNotificationPriority priority = NSUIntegerMax;
     if (!mapTable)
     {
         NSLog(@"Warning. Normally I would expect a mapTable available for notification: %@", aName);
@@ -174,7 +174,7 @@ NSString *const kSeparator = @"_";
     }
     
     // Look in all possible keys
-    for (uint priorityIterator = NotificationPriorityLow; priorityIterator <= NotificationPriorityHigh; priorityIterator++)
+    for (uint priorityIterator = PRNotificationPriorityLow; priorityIterator <= PRNotificationPriorityHigh; priorityIterator++)
     {
         NSPointerArray *array = [mapTable[@(priorityIterator)] copy];
         if (!array)
