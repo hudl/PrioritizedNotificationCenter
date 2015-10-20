@@ -144,17 +144,20 @@ NSString *const kNotificationName = @"notification";
     [[PRNotificationCenter defaultCenter] addObserver:self.viewOne
                                              selector:@selector(notificationReceived:)
                                                  name:kNotificationName
-                                               object:self priority:priorityOne];
+                                               object:self
+                                             priority:priorityOne];
     
     [[PRNotificationCenter defaultCenter] addObserver:self.viewTwo
                                              selector:@selector(notificationReceived:)
                                                  name:kNotificationName
-                                               object:self priority:priorityTwo];
+                                               object:self
+                                             priority:priorityTwo];
     
     [[PRNotificationCenter defaultCenter] addObserver:self.viewThree
                                              selector:@selector(notificationReceived:)
                                                  name:kNotificationName
-                                               object:self priority:priorityThree];
+                                               object:self
+                                             priority:priorityThree];
 }
 
 - (NSString *)_selectedObjectInPickerView:(UIPickerView *)pickerView
